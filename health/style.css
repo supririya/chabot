@@ -1,0 +1,243 @@
+
+/* css for website*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width:100%;
+    background: #262626;
+    overflow:hidden;
+    position: fixed;
+    top:0;
+}
+
+.nav_class{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.li_class{
+    float: left;
+    font-family: arial,sans-serif;
+
+}
+.a_class{
+    padding: 25px;
+    width: 130px;
+    display:inherit;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+
+#image_home{             /*css for index page*/
+    padding-top: 75px;
+    text-align: center;
+    color: #f8f8f8;
+    height:100vh;
+    background-image: url(images/doctor.jpg); 
+    background-position: center;
+    background-size: cover; 
+}
+
+#content{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    padding-top:4%;
+    padding-bottom: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px; 
+}
+
+#contents{
+     width: 60%;
+    margin: auto;
+    position: relative;
+    padding-top:4%;
+    padding-bottom: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+.inner_content
+{
+    margin-top:20px;
+    margin-right:20px;
+}
+
+
+#foot{
+    padding: 10px ;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+   
+}
+
+
+.panels{
+    margin-top: 120px;
+}
+
+.panel_class{
+    margin-top: 20px;
+
+}
+
+.panel-footers
+{
+    padding: 1px,1px;
+}
+
+.container-fluid{
+    margin-top: 60px;
+}
+
+.container-fluids{
+    margin-top: 30px;
+}
+
+ h3{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+
+.h4_det{
+    font-family: arial,sans-serif;
+    color:black;
+}
+
+.table{
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+#foots{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color:#9d9d9d;
+    padding: 10px ;
+}
+
+.container_c
+{
+  margin-top: 80px;  
+}
+
+
+.center {
+text-align: center;
+}
+
+p{
+font-size:medium;
+}
+.header
+{
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+/* doctor.php */
+
+.content_doc
+{
+    text-align:center;
+    margin: 40px;
+}
+
+.h2_doc
+{
+    padding:20px;
+    color:#000;
+    font-weight: bolder;
+}
+
+.jumbotron{
+    color:#000;
+}
+
+/* specialist.php */
+
+.content_sp
+{
+    text-align:center;
+    margin: 70px;
+}
+
+.h2_sp
+{
+    padding:20px;
+    color:#000;
+}
+
+
+.image_doc
+{
+                
+    padding-top: 75px;
+    text-align: center;
+    color: #f8f8f8;
+    height:130vh;
+    background-image: url(images/back_1.jpg); 
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.image_white
+{
+                
+    padding-top: 75px;
+    text-align: center;
+    color: #f8f8f8;
+    height:130vh;
+    background-image: url(images/white.jpg); 
+    background-position: center;
+    background-size: cover; 
+}
+
+h4{
+    border:10px;
+    color:#fff;
+}
+
+/* cardio_detail_1.php */
+
+.content_detail
+{
+    margin:10px;
+}
+
+.image_detail
+{
+                
+    padding-top: 75px;
+    text-align: center;
+    color: #f8f8f8;
+    height:100vh;
+    background-image: url(images/back_1.jpg); 
+    background-position: center;
+    background-size: cover; 
+}
+
+#profile{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border: #000;
+    margin:auto;
+}
